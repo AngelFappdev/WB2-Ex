@@ -5,6 +5,7 @@ function init() {
 
 }
 function ongreet_buttonclicked(){
-    alert("Hiiii!!");
+    const namefield = document.getElementById("namefield");
+    alert(`Hiiii!! ${namefield.value}` );
     }
 window.onload = init;
